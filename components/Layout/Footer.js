@@ -1,6 +1,6 @@
 import React from "react";
 // import FullLogo from "../FullLogo";
-import Navigation from "./Navigation";
+import Navigation from "./navigation";
 
 function Footer() {
   return (

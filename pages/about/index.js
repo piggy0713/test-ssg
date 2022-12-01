@@ -3,9 +3,9 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import textData from "../../src/assets/data/texts.json";
 // import PersonCard from "./PersonCard";
-import Heading from "../../components/Heading";
-import Paragraph from "../../components/Paragraph";
-import Hyperlink from "../../components/HyperLink";
+import Heading from "../../components/heading";
+import Paragraph from "../../components/paragraph";
+import Hyperlink from "../../components/hyperlink";
 import Button from "../../components/Button";
 
 const About = () => {

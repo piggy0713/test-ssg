@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 // import Image from "next/image";
 // import iconLogo from "../../public/icon.svg";
-import Navigation from "./Navigation";
+import Navigation from "./navigation";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

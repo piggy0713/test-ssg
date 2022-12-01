@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import textData from "../src/assets/data/texts.json";
-import Paragraph from "../components/Paragraph";
-import Heading from "../components/Heading";
-import Button from "../components/Button";
-import FullLogo from "../components/FullLogo";
+import Paragraph from "../components/paragraph";
+import Heading from "../components/heading";
+import Button from "../components/button";
+import FullLogo from "../components/fullLogo";
 
 const Home = () => {
   return (
