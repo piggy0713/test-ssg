@@ -1,0 +1,88 @@
+{
+  "home": {
+    "mission": {
+      "tagline": "We ain't afraid of no code",
+      "p": [
+        "We are a Software Development Agency with a mission to help startups and small businesses get their product online at a fraction of the cost of traditional software development. We use Flow Code, our proprietary set of ready-made components, to build your app's standard features and flows and focus our efforts on the parts that are unique to your business."
+      ],
+      "button": "Learn More"
+    },
+    "latest_articles": {
+      "h2": "Latest Articles",
+      "button": "More Articles"
+    }
+  },
+  "about": {
+    "h1": "About CodeBusters",
+    "span1": "Did you know that, ",
+    "link": {
+      "text": "on average",
+      "url": "https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/delivering-large-scale-it-projects-on-time-on-budget-and-on-value"
+    },
+    "span2": " software projects overrun their initial budget by 66%, scheduled time by 33%, and underdeliver on their features by 17%? These numbers show that the software development industry is failing, and we are here to change that.",
+    "flow_code": {
+      "h2": "Better development with Flow Code",
+      "p1": "According to the well-known Pareto Principle, 80% of your app’s impact comes from 20% of its features. The remaining 80% of the code are the expected flows most modern apps share: login, notifications, cookie management, payments, etc.",
+      "p2": {
+        "span1": "We believe there is no need to “reinvent the wheel” and build the common flows from scratch for each new project. We developed ",
+        "link": {
+          "text": "Flow Code",
+          "url": "/articles/31TNnjHlfaGUoMOwU0M2og/flowcode"
+        },
+        "span2": ", our proprietary set of configurable software modules, to cover 80% of the code that goes into an app."
+      },
+      "p3": "Using Flow Code allows us to approach software development in a new way:",
+      "list": [
+        "We focus our time and effort on the unique features of your app (its business logic)",
+        "We provide intuitive and reliable experiences to your users",
+        "We help you deliver the project on time and on budget"
+      ],
+      "cta": "Sounds interesting? Get in touch with us and learn how Flow Code can improve your business.",
+      "button": "Contact Us"
+    },
+    "our_team": {
+      "h2": "Our Team",
+      "p": "We chose the name CodeBusters because the combination of humour, teamwork and groundbreaking tech is why the Ghostbusters saved New York City. We aspire to emulate that vibe in our daily work as we spread the gospel of excellent software development across the interweb.",
+      "people": [
+        {
+          "name": "Thom Lamb",
+          "photo": "thom",
+          "link": "https://www.linkedin.com/in/thomlamb1/",
+          "bio": "CEO and Principal Engineer. Veteran with over two decades of experience in Engineering, Leadership and Project Management. I want to help build great products that lead to a great team. Always learning and sharing knowledge."
+        },
+        {
+          "name": "Daria Tsvetkova",
+          "photo": "daria",
+          "link": "https://www.linkedin.com/in/daria-tsvetkova/",
+          "bio": "Creative and passionate Full Stack Developer with an extensive background in marketing who loves solving complex problems and thinks outside the box."
+        },
+        {
+          "name": "Karida Chen",
+          "photo": "karida",
+          "link": "https://www.linkedin.com/in/karida-chen/",
+          "bio": "Software Developer with a passion for building interesting projects. I love to learn new things and I'm always looking for ways to improve my skills."
+        },
+        {
+          "name": "Yumie Tsuzuki",
+          "photo": "yumie",
+          "link": "https://www.linkedin.com/in/yumie-tsuzuki/",
+          "bio": "Software Developer who is passionate about building a product that delivers a better user experience and tackling challenges."
+        }
+      ],
+      "button": "Join the Team"
+    }
+  },
+  "articles": {
+    "h1": "Articles",
+    "p": "Here at Codebusters we are eager to share our learnings because it makes us look like we know what we are doing. Our articles are usually an output of real client work."
+  },
+  "contact": {
+    "h1": "Contact Us",
+    "p": "If you are interested in working with us, please fill out the form below, it will take about 17 seconds."
+  },
+  "404": {
+    "h1": "Page not found",
+    "p": "This did not go as planned.",
+    "button": "Go Home"
+  }
+}
