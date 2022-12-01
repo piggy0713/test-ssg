@@ -2,7 +2,7 @@ import React from "react";
 // import FullLogo from "../FullLogo";
 import Navigation from "./navigation";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="min-h-screen text-center flex flex-col flex-nowrap justify-evenly items-center text-0.8em lg:text-footer-lg">
       <div>
@@ -16,6 +16,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
-// import Image from "next/image";
-// import iconLogo from "../../public/icon.svg";
 import Navigation from "./navigation";
 
-function Header() {
+const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -23,6 +21,6 @@ function Header() {
       <Navigation type="top" setMenuOpen={setMenuOpen} open={menuOpen} />
     </div>
   );
-}
+};
 
 export default Header;

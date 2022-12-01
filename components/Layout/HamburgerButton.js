@@ -1,6 +1,6 @@
 import React from "react";
 
-function HamburgerButton({ setMenuOpen, open }) {
+const hamburgerButton = ({ setMenuOpen, open }) => {
   return (
     <button
       className="w-10 h-10 justify-self-end bg-transparent border-none m-0 p-0 cursor-pointer relative z-20 flex items-center justify-center lg:hidden"
@@ -18,6 +18,6 @@ function HamburgerButton({ setMenuOpen, open }) {
       ></div>
     </button>
   );
-}
+};
 
-export default HamburgerButton;
+export default hamburgerButton;

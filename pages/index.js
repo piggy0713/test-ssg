@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
 import textData from "../src/assets/data/texts.json";
 import Paragraph from "../components/paragraph";
 import Heading from "../components/heading";

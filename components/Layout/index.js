@@ -1,16 +1,10 @@
 import React, { useEffect } from "react";
-// import { GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
-// import { auth } from "../../firebase/clientApp";
-// import { useUser } from "./user-context";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./header";
+import Footer from "./footer";
 import { useRouter } from "next/router";
 import classNames from "../../src/utils/className";
 
-function Layout({ children }) {
-  // Google Auth (needs to be enabled in Firebase Console - https://console.firebase.google.com)
-  // const googleAuthProvider = new GoogleAuthProvider();
-  // const { user } = useUser();
+const Layout = ({ children }) => {
   const { pathname } = useRouter();
 
   useEffect(() => {
@@ -35,6 +29,6 @@ function Layout({ children }) {
       </div>
     </div>
   );
-}
+};
 
 export default Layout;

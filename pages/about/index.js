@@ -2,11 +2,10 @@ import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import textData from "../../src/assets/data/texts.json";
-// import PersonCard from "./PersonCard";
 import Heading from "../../components/heading";
 import Paragraph from "../../components/paragraph";
 import Hyperlink from "../../components/hyperlink";
-import Button from "../../components/Button";
+import Button from "../../components/button";
 
 const About = () => {
   const router = useRouter();
@@ -46,13 +45,6 @@ const About = () => {
           <span>{textData.about.flow_code.p2.span2}</span>
         </Paragraph>
         <Paragraph>{textData.about.flow_code.p3}</Paragraph>
-        {/* <UnorderedList>
-          {textData.about.flow_code.list.map((item, ind) => (
-            <li className="mb-3 last:mb-bodyBottom" key={`flow-list-${ind}`}>
-              {item}
-            </li>
-          ))}
-        </UnorderedList> */}
         <Paragraph>{textData.about.flow_code.cta}</Paragraph>
         <Button type="button" onClick={() => router.push("/contact")}>
           {textData.about.flow_code.button}
@@ -62,11 +54,6 @@ const About = () => {
       <section className="pt-4">
         <Heading level="h2">{textData.about.our_team.h2}</Heading>
         <Paragraph>{textData.about.our_team.p}</Paragraph>
-        {/* <ul className="mx-auto max-w-3xl list-outside pl-0">
-          {textData.about.our_team.people.map((person, ind) => {
-            return <PersonCard key={`person-${ind}`} person={person} />;
-          })}
-        </ul> */}
         <Button type="button" onClick={() => router.push("/apply")}>
           {textData.about.our_team.button}
         </Button>
