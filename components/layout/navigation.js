@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import SocialLink from "./SocialLink";
-import HamburgerButton from "./HamburgerButton";
+import SocialLink from "./socialLink";
+import HamburgerButton from "./hamburgerButton";
 import { navData } from "../../src/assets/data/navigation";
 
 function Navigation({ type, setMenuOpen, open }) {
